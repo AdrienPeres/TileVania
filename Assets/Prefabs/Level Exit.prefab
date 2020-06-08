@@ -74,12 +74,13 @@ SpriteRenderer:
   m_SortingLayerID: -282422431
   m_SortingLayer: 5
   m_SortingOrder: 0
-  m_Sprite: {fileID: 489324813500202061, guid: 9821a4e784d121148bbbcb31295d47ba, type: 3}
+  m_Sprite: {fileID: 2941680484973586956, guid: 2c81ee9e643d75f4093f62869affa26a,
+    type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.64, y: 0.64}
+  m_Size: {x: 0.32, y: 0.32}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -103,7 +104,7 @@ BoxCollider2D:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
     oldSize: {x: 1, y: 1}
-    newSize: {x: 0.64, y: 0.64}
+    newSize: {x: 0.32, y: 0.32}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
@@ -124,7 +125,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LevelExitSlowMoFactor: 0.2
-  portalTransfer: {fileID: 8300000, guid: 21ffdbcafe5294646ba36fe30c6ba53c, type: 3}
+  portalTransfer: {fileID: 8300000, guid: 44c69810f6cc7764f95c28d6e5398784, type: 3}
 --- !u!95 &2385930318839125226
 Animator:
   serializedVersion: 3

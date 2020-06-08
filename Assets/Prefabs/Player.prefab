@@ -79,7 +79,7 @@ SpriteRenderer:
   m_Size: {x: 0.32, y: 0.32}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!95 &1680115105
@@ -197,13 +197,13 @@ SpriteRenderer:
   m_SortingLayerID: 2010481599
   m_SortingLayer: 6
   m_SortingOrder: 0
-  m_Sprite: {fileID: 1857188551261513057, guid: 6214ff7ecd445f34496f430d385fafab,
+  m_Sprite: {fileID: 6789189809220444129, guid: f3ae58cceaaa214409a9b0d8257206ec,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.38, y: 0.38}
+  m_Size: {x: 0.32, y: 0.32}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -259,24 +259,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   jumpSpeed: 20
-  deathKick: {x: 250, y: 250}
+  deathKick: {x: 25, y: 25}
   listDeathSounds:
-  - {fileID: 8300000, guid: 93ffac51cdb67b14f8ad6d3764792098, type: 3}
-  - {fileID: 8300000, guid: 2ee6000c4d9a6f048b48a82da4172bce, type: 3}
-  - {fileID: 8300000, guid: b411aef7cea76f84e9f8cf93757e5f65, type: 3}
-  - {fileID: 8300000, guid: 892a2b236d782414f949a35c069211d7, type: 3}
-  - {fileID: 8300000, guid: b45315d56fca27644b61d1a05f5ac1d2, type: 3}
-  - {fileID: 8300000, guid: 6273e6ffc0c985b43892a0842bf4fb21, type: 3}
-  - {fileID: 8300000, guid: 516ac2139f58fa244a50a5b1db5ab360, type: 3}
-  - {fileID: 8300000, guid: 3f2c607e520c5f74596c720f30f730a3, type: 3}
+  - {fileID: 8300000, guid: 97a0b8ea5738c4046a8251b50ae9b1c2, type: 3}
+  - {fileID: 8300000, guid: 46a90d1321d17b34c8b1b6b5c31c0b71, type: 3}
+  - {fileID: 8300000, guid: 64daff8a740d47e4383f811a35efa60a, type: 3}
+  - {fileID: 8300000, guid: 455b9d1d19964eb40b986d281bfa137e, type: 3}
+  - {fileID: 8300000, guid: 3557c63caff065444927fc0684c044d9, type: 3}
+  - {fileID: 8300000, guid: d1b4daa6c78bb1e4297c506e5ccfadfb, type: 3}
+  - {fileID: 8300000, guid: 58e4fd677ee8e0e48af6b9b5cea20b76, type: 3}
+  - {fileID: 8300000, guid: 6a2defdc09351254280f4f113b3d4c6f, type: 3}
   dustAnimator: {fileID: 1680115105}
-  landingSFX: {fileID: 8300000, guid: 7c0ea17c0dd9cdb4cb14e3b090eea4b0, type: 3}
-  firstStep: {fileID: 8300000, guid: 032a35baab5fd2447bfc8a9f7bd18d1b, type: 3}
-  secondStep: {fileID: 8300000, guid: 7a0da352a522da246919f8c0edc8c086, type: 3}
+  landingSFX: {fileID: 8300000, guid: 9692488efc12b344bae8315be0d398b2, type: 3}
+  firstStep: {fileID: 8300000, guid: 9692488efc12b344bae8315be0d398b2, type: 3}
+  secondStep: {fileID: 8300000, guid: 911159a73a303d141852ae7ced9e413c, type: 3}
   LandingShakeDuration: 0.2
   LandingShakeAmplitude: 5
   LandingShakeFrequency: 5
-  runShakeAmplitude: 0.5
+  runShakeAmplitude: 0.3
   runShakeFrequency: 1
   runShakeDuration: 0.1
   ShakeElapsedTime: 0
@@ -301,7 +301,7 @@ BoxCollider2D:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
     oldSize: {x: 1, y: 1}
-    newSize: {x: 0.38, y: 0.38}
+    newSize: {x: 0.32, y: 0.32}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0

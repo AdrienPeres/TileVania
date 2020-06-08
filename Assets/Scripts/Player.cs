@@ -17,7 +17,6 @@ public class Player : MonoBehaviour
     [SerializeField] AudioClip firstStep;
     [SerializeField] AudioClip secondStep;
 
-    private float ShakeDuration = 0.3f;      //Time the Camera Shake effect will last
     private float ShakeAmplitude = 1.2f;     //Cinemachine Noise Profile Parameter
     private float ShakeFrequency = 2.0f;     //Cinemachine Noise Profile Parameter
 
@@ -89,6 +88,8 @@ public class Player : MonoBehaviour
             myAnimator.SetBool("PlayerStop", true);
             dustAnimator.SetBool("PlayerRunning", false);
             myRigidBody.velocity = new Vector2(0, 0);
+            ShakeElapsedTime = 0f;
+            CameraShake();
             return;
         }
         myAnimator.SetBool("PlayerStop", false);
@@ -133,8 +134,11 @@ public class Player : MonoBehaviour
         if (inTheAir && !myCapsuleCollider2D.IsTouchingLayers(LayerMask.GetMask("Ground")))
         {
             timer = timer1 - timer2;
-            if(timer > 0.8f) { timer = 10f; }
-            else { timer = 0.5f; }
+            Debug.Log(timer);
+            if (timer > 1.1f) { timer = 5f; }
+            else if (timer > 0.8f) { timer = 1f; }
+            else if (timer > 0.5f) { timer = 0.5f; }
+            else { timer = 0.2f; }
             dustAnimator.SetTrigger("Landing");
             AudioSource.PlayClipAtPoint(landingSFX, Camera.main.transform.position);
             TriggerLandingCameraShake();
