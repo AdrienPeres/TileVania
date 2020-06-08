@@ -134,7 +134,6 @@ public class Player : MonoBehaviour
         if (inTheAir && !myCapsuleCollider2D.IsTouchingLayers(LayerMask.GetMask("Ground")))
         {
             timer = timer1 - timer2;
-            Debug.Log(timer);
             if (timer > 1.1f) { timer = 5f; }
             else if (timer > 0.8f) { timer = 1f; }
             else if (timer > 0.5f) { timer = 0.5f; }

@@ -24984,11 +24984,6 @@ PrefabInstance:
       propertyPath: m_BoundingShape2D
       value: 
       objectReference: {fileID: 1182861128}
-    - target: {fileID: 731762253820169598, guid: 526a1d00c448e1e4d8c7b87d70851b1d,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -3.8726351
-      objectReference: {fileID: 0}
     - target: {fileID: 731762254445640913, guid: 526a1d00c448e1e4d8c7b87d70851b1d,
         type: 3}
       propertyPath: m_ChildCameras.Array.size
@@ -24999,21 +24994,11 @@ PrefabInstance:
       propertyPath: m_AnimatedTarget
       value: 
       objectReference: {fileID: 2099347569}
-    - target: {fileID: 731762254458531695, guid: 526a1d00c448e1e4d8c7b87d70851b1d,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 2.542
-      objectReference: {fileID: 0}
     - target: {fileID: 731762254746783808, guid: 526a1d00c448e1e4d8c7b87d70851b1d,
         type: 3}
       propertyPath: m_Follow
       value: 
       objectReference: {fileID: 2099347570}
-    - target: {fileID: 731762254746783809, guid: 526a1d00c448e1e4d8c7b87d70851b1d,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -3.8726351
-      objectReference: {fileID: 0}
     - target: {fileID: 731762254746783839, guid: 526a1d00c448e1e4d8c7b87d70851b1d,
         type: 3}
       propertyPath: m_BoundingShape2D
